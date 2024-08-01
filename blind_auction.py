@@ -16,10 +16,11 @@ while(continu == True):
         continu = True
     elif(quest == 2):
         continu = False
+max_bid = 0
+max_per = ""
 for n in bid:
-    max_bid = 1
-    max_per = ""
+    amount = bid[n]
     if(bid[n] > max_bid):
-        max_bid  =bid[n]
+        max_bid  = amount
         max_per = n
 print(f"The highest bid is ${max_bid} from {max_per}.")
