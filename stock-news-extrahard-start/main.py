@@ -3,10 +3,10 @@ COMPANY_NAME = "Tesla Inc"
 import requests
 from twilio.rest import Client
 
-accountid = "AC867515e1a06ed821ea040195cd3a6e3c"
-accttoken = "f78f02c72c0c85c5dee93615202b11a7"
-ALPHA_API = "H4N444KHTSTVGUVS"
-NEWS_API = "82f471cb7d604ea48c47d55f711058f2"
+accountid = ""
+accttoken = ""
+ALPHA_API = ""
+NEWS_API = ""
 client = Client(accountid, accttoken)
 
 def get_news(percent):
