@@ -17,7 +17,7 @@ def mondayquote():
     quote = random.choice(quotes_list)
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection.starttls()
-        connection.login(user=myemail, password="xrqnrctvneuzkdwv")
+        connection.login(user=myemail, password="")
         connection.sendmail(from_addr=myemail, to_addrs=myemail,
                             msg=f"Subject:Hello\n\n{quote}")
 
