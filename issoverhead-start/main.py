@@ -37,7 +37,7 @@ while True:
     if (MY_LAT + 5 >= iss_latitude >= MY_LAT - 5) and (MY_LONG + 5 >= iss_longitude >= MY_LONG - 5):
         with smtplib.SMTP("smtp.gmail.com") as connection:
             connection.starttls()
-            connection.login(user="folakemijoy492@gmail.com", password="xrqnrctvneuzkdwv")
+            connection.login(user="folakemijoy492@gmail.com", password="")
             connection.sendmail(from_addr="folakemijoy492@gmail.com", to_addrs="folakemihoy492@gmail.com",
                                 msg="Hiii\n\nLook up!")
 # and it is currently dark
